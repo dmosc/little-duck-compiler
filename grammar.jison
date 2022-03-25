@@ -41,7 +41,9 @@ program { return "PROGRAM"; }
 %%
 
 program:
-    PROGRAM ID SEMICOLON program_s1 block;
+    PROGRAM ID SEMICOLON program_s1 block {
+        console.log(`🦆 Processed ${this._$.last_line} lines.`);
+    };
 
 program_s1: /* empty */
     |
