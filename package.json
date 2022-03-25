@@ -1,0 +1,9 @@
+{
+  "name": "little-duck-compiler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jison": "^0.4.18"
+  }
+}
